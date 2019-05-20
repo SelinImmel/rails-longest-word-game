@@ -1,0 +1,9 @@
+<h1>Result</h1>
+
+<p><%= @final_message %></p>
+<p><%= @result_message %></p>
+<%#= button_to "Play again", new_path, class: "btn" %>
+<%#= link_to "trying", new_path, class: "btn" %>
+<form action="/new" method="get">
+   <button type="submit" class="btn">Play Again</button>
+</form>
